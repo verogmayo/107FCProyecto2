@@ -9,7 +9,7 @@
 sudo docker run -d -p 8080:80 \
 --name actividad2 \
 --mount type=bind,source="$(pwd)",target=/usr/share/nginx/html \
-nginx
+107fcproyecto1:1.0
 
 ```
 
